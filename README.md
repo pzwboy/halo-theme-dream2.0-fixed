@@ -4,7 +4,7 @@
 <h1 align="center">halo-theme-dream2.0-fixed</h1>
 
 
-<p align="center">本主题修改自<a href="https://github.com/nineya/halo-theme-dream2.0" target="_blank">nineya/halo-theme-dream2.0</a> v1.3.2<br><b>注意：若在已安装原`Dream`主题的情况下安装本主题，二者主题设置将会被重置！</b></p>
+<p align="center">本主题修改自 <a href="https://github.com/nineya/halo-theme-dream2.0" target="_blank">nineya/halo-theme-dream2.0</a> v1.3.2<br><b>注意：若在已安装原 <code>Dream</code> 主题的情况下安装本主题，二者主题设置将会被重置！</b></p>
 
 ## 一、预览
 
