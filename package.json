@@ -1,9 +1,9 @@
 {
-  "name": "halo-theme-dream2.0",
-  "version": "1.3.2",
+  "name": "halo-theme-dream2.0-fixed",
+  "version": "1.0.0",
   "description": "梦之城，童话梦境，动漫类型博客主题。",
   "main": "index.js",
-  "author": "nineya",
+  "author": "pzwboy",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "eslint src/**/*.js && gulp release",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nineya/halo-theme-dream2.0.git"
+    "url": "git+https://github.com/pzwboy/halo-theme-dream2.0-fixed.git"
   },
   "keywords": [
     "halo",
@@ -25,9 +25,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nineya/halo-theme-dream2.0/issues"
+    "url": "https://github.com/pzwboy/halo-theme-dream2.0-fixed/issues"
   },
-  "homepage": "https://github.com/nineya/halo-theme-dream2.0#readme",
+  "homepage": "https://github.com/pzwboy/halo-theme-dream2.0-fixed#readme",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/plugin-transform-runtime": "^7.15.0",

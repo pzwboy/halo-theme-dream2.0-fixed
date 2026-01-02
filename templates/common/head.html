@@ -50,4 +50,18 @@ th:with="description=${isPost ? post != null ? post.status.excerpt : singlePage 
   [(${theme.config.custom.external_js_head})]
   <script th:if="${!#strings.isEmpty(theme.config.custom.inline_js_head)}" type="text/javascript" th:utext="${theme.config.custom.inline_js_head}">
   </script>
+  
+  <style type="text/css">:root {
+  --halo-cw-primary-1-color: var(--theme);
+  --halo-cw-primary-2-color: var(--bg-i);
+  --halo-cw-primary-3-color: var(--bg-h);
+
+  --halo-cw-text-1-color: var(--main);
+  --halo-cw-text-2-color: var(--dark-e);
+  --halo-cw-text-3-color: var(--dark-d);
+
+  --halo-cw-muted-1-color: var(--light-d);
+  --halo-cw-muted-2-color: var(--light-c);
+  --halo-cw-muted-3-color: var(--light-b);
+}</style>
 </head>
