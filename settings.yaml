@@ -51,6 +51,10 @@ spec:
           label: 建站时间
           placeholder: 'YYYY/MM/dd HH:mm:ss'
           help: '按YYYY/MM/dd HH:mm:ss格式输入时间进行倒计时，非时间格式则直接显示文本。'
+        - $formkit: text
+          name: website_year
+          label: '建站年份'
+          help: '输入建站年份以用于底部版权，放空则仅显示现在年份。'
         - $formkit: attachment
           name: cloud_by_logo
           label: '云服务提供商 Logo'

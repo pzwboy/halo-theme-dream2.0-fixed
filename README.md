@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/nineya/halo-theme-dream2.0/screenshot.png" alt="halo-theme-dream2.0" width="180">
+<img src="https://raw.githubusercontent.com/pzwboy/halo-theme-dream2.0-fixed/refs/heads/master/screenshot.png" alt="halo-theme-dream2.0" width="180">
 </p>
 <h1 align="center">halo-theme-dream2.0-fixed</h1>
 
@@ -8,10 +8,9 @@
 
 ## 一、预览
 
-![玖涯博客](https://cdn.jsdelivr.net/gh/nineya/halo-theme-dream2.0@master/preview.png)
+![玖涯博客](https://raw.githubusercontent.com/pzwboy/halo-theme-dream2.0-fixed/refs/heads/master/preview.png)
 
 预览：[主题预览](https://pzwboy.top/)
-> 如果你有计划长期使用 `Dream` 主题，也来[这里](https://github.com/nineya/halo-theme-dream/discussions/72)留下你的博客链接吧。
 
 
 
@@ -26,7 +25,7 @@
 
 | 主题版本| 适配Halo版本 | 测试用Halo版本 |
 | -------------- | -------------- | -------------- |
-| 1.0.0 | 2.0.0+ | 2.22.4 |
+| 1.0.1 | 2.0.0+ | 2.22.4 |
 
 
 

@@ -12,7 +12,13 @@
             </li>
             <li>
               <p class="icon-spot">
-                <span th:text="'&copy; '+${#dates.format(#dates.createNow(), 'yyyy')}+' '+ ${site.title}"></span><a
+			  <th:block th:if="${#strings.isEmpty(theme.config.basic_info.website_year)}">
+			    <span th:text="'&copy; '+${#dates.format(#dates.createNow(), 'yyyy')}+' '+${contributor.displayName}">
+			  </th:block>
+              <th:block th:unless="${#strings.isEmpty(theme.config.basic_info.website_year)}">
+                <span th:text="'&copy; '+${theme.config.basic_info.website_year}+'-'+${#dates.format(#dates.createNow(), 'yyyy')}+' '+${contributor.displayName}">
+              </th:block>
+				</span><a
                   th:if="${!#strings.isEmpty(theme.config.basic_info.record_number)}"
                   href="http://beian.miit.gov.cn/publish/query/indexFirst.action" target="_blank" rel="noopener noreferrer nofollow"
                   th:text="${theme.config.basic_info.record_number}"></a><span class="footer-truncation">Powered by <a class="powered" href="https://halo.run/" target="_blank">Halo</a> & <a class="powered" href="https://github.com/pzwboy/halo-theme-dream2.0-fixed" target="_blank">Dream Fixed</a></span></p>
