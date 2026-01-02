@@ -6,7 +6,7 @@
 
 <p align="center">本主题修改自<a href="https://github.com/nineya/halo-theme-dream2.0" target="_blank">nineya/halo-theme-dream2.0</a> v1.3.2</p>
 
-<b align="center">注意：若在已安装原`Dream`主题的情况下安装本主题，二者主题设置将会被重置！</b>
+*** 注意：若在已安装原`Dream`主题的情况下安装本主题，二者主题设置将会被重置！ ***
 
 ## 一、预览
 
