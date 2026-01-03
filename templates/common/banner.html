@@ -13,7 +13,7 @@
         <div class="banner-info-desc" th:text="${theme.config.basic_style.banner_description}"></div>
 		</th:block>
 		<th:block th:unless="${theme.config.basic_style.enable_desc_after}">
-        <div class="banner-info-desc-noafter" th:text="${theme.config.basic_style.banner_description}"></div>
+        <div style="font-size: 1.4rem; line-height: 1.4; max-width: 600px;" th:text="${theme.config.basic_style.banner_description}"></div>
 		</th:block>
     </div>
     <svg class="banner-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
