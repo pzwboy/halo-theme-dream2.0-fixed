@@ -4,7 +4,7 @@
 <h1 align="center">halo-theme-dream2.0-fixed</h1>
 
 
-<p align="center">本主题修改自 <a href="https://github.com/nineya/halo-theme-dream2.0" target="_blank">nineya/halo-theme-dream2.0</a> v1.3.2<br><b>注意：</b>若在已安装原 <code>Dream</code> 主题的情况下安装本主题，两者将共用主题配置，且在卸载其一后将无法更改主题配置！</p>
+<p align="center">本主题修改自 <a href="https://github.com/nineya/halo-theme-dream2.0" target="_blank">nineya/halo-theme-dream2.0</a> v1.3.2</p>
 
 ## 一、预览
 
@@ -25,7 +25,7 @@
 
 | 主题版本| 适配Halo版本 | 测试用Halo版本 |
 | -------------- | -------------- | -------------- |
-| 1.0.1 | 2.0.0+ | 2.22.4 |
+| 1.0.2 | 2.0.0+ | 2.22.4 |
 
 
 

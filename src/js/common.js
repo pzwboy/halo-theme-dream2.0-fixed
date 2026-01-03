@@ -428,7 +428,7 @@ const commonContext = {
   },
   /* 显示主题版本信息 */
   showThemeVersion() {
-    window.logger(`%c页面加载耗时：${Math.round(performance.now())}ms | Theme By Dream ${DreamConfig.theme_version}`,
+    window.logger(`%c页面加载耗时：${Math.round(performance.now())}ms | Theme By Dream Fixed ${DreamConfig.theme_version}`,
       'color:#fff; background: linear-gradient(270deg, #986fee, #8695e6, #68b7dd, #18d7d3); padding: 8px 15px; border-radius: 0 15px 0 15px')
   }
 }

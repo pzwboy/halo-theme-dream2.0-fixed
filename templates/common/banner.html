@@ -2,9 +2,19 @@
      th:fragment="banner"
      class="banner"
      th:style="${'background-image: url(' + theme.config.basic_style.banner_image + ')'}">
+	 
+	 <th:block th:unless="${#strings.isEmpty(theme.config.basic_style.banner_video)}">
+     <video th:src="${theme.config.basic_style.banner_video}" style="width: 100%;height: 100%;object-position: center;object-fit: cover;" autoplay loop muted></video>
+	 </th:block>
+	 
     <div class="banner-info">
         <div class="banner-info-title" th:text="${site.title}"></div>
+		<th:block th:if="${theme.config.basic_style.enable_desc_after}">
         <div class="banner-info-desc" th:text="${theme.config.basic_style.banner_description}"></div>
+		</th:block>
+		<th:block th:unless="${theme.config.basic_style.enable_desc_after}">
+        <div class="banner-info-desc-noafter" th:text="${theme.config.basic_style.banner_description}"></div>
+		</th:block>
     </div>
     <svg class="banner-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <defs>

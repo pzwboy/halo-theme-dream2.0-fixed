@@ -1,7 +1,7 @@
 apiVersion: v1alpha1
 kind: Setting
 metadata:
-  name: theme-dream-setting
+  name: theme-dream-fixed-setting
 spec:
   forms:
     - group: basic_info
@@ -54,7 +54,7 @@ spec:
         - $formkit: text
           name: website_year
           label: '建站年份'
-          help: '输入建站年份以用于底部版权，放空则仅显示现在年份。'
+          help: '输入建站年份以用于底部版权，放空则仅显示目前年份。'
         - $formkit: attachment
           name: cloud_by_logo
           label: '云服务提供商 Logo'
@@ -63,6 +63,15 @@ spec:
           name: cloud_by_url
           label: '云服务提供商 URL'
           placeholder: '请输入链接地址'
+        - $formkit: text
+          name: record_number_moe
+          label: 萌国ICP备案
+          placeholder: '萌ICP备XXXXXXXX号'
+          help: '可在 icp.gov.moe 申请的虚构备案。'
+        - $formkit: code
+          name: footer_custom
+          label: '自定义底部内容'
+          help: '可填入 HTML 代码，内容将置于 Footer 最底部。'
     - group: basic_style
       label: '基础样式'
       formSchema:
@@ -116,7 +125,8 @@ spec:
           placeholder: '请输入/选择图片路径'
         - $formkit: radio
           name: enable_banner
-          label: 开启博客横幅大图
+          label: 开启博客横幅
+          help: '图片视频二选一'
           value: false
           options:
             - label: 开启
@@ -127,10 +137,23 @@ spec:
           name: banner_image
           label: 横幅背景图
           placeholder: '请输入/选择图片路径'
+        - $formkit: attachment
+          name: banner_video
+          label: 横幅背景视频
+          placeholder: '请输入/选择视频路径'
         - $formkit: text
           name: banner_description
           label: 横幅文字描述
           placeholder: '请输入描述内容'
+        - $formkit: radio
+          name: enable_desc_after
+          label: 横幅文字描述打字效果
+          value: false
+          options:
+            - label: 开启
+              value: true
+            - label: 关闭
+              value: false
         - $formkit: select
           name: theme_style
           label:  主题风格
