@@ -71,7 +71,7 @@ spec:
         - $formkit: code
           name: footer_custom
           label: '自定义底部内容'
-          help: '仅支持纯文字，内容将置于 Footer 最底部。'
+          help: '支持 HTML 代码，内容将置于 Footer 最底部。'
     - group: basic_style
       label: '基础样式'
       formSchema:
