@@ -126,13 +126,21 @@ spec:
         - $formkit: radio
           name: enable_banner
           label: 开启博客横幅
-          help: '图片视频二选一'
           value: false
           options:
             - label: 开启
               value: true
             - label: 关闭
               value: false
+        - $formkit: radio
+          name: banner_mode
+          label: 横幅类型
+          value: image
+          options:
+            - label: 图片
+              value: image
+            - label: 视频
+              value: video
         - $formkit: attachment
           name: banner_image
           label: 横幅背景图
@@ -193,10 +201,10 @@ spec:
           options:
             - value: 'default'
               label:  默认字体
-            - value: 'WenCang.woff2'
-              label:  问藏书房体
-            - value: 'AlimamaDaoLiTi.woff2'
-              label: 阿里巴巴刀隶体
+            - value: 'MiSansVF.woff2'
+              label: MiSans
+            - value: 'ZhanKuWenYiTi.woff2'
+              label: 站酷文艺体
             - value: 'custom'
               label:  自定义
         - $formkit: attachment
