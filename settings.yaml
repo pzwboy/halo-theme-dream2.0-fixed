@@ -197,8 +197,6 @@ spec:
               label: MiSans
             - value: 'ZhanKuKuaiLeTi.woff2'
               label: 站酷快乐体
-            - value: 'MaoKenZhuYuanTi.woff2'
-              label: 猫啃珠圆体
             - value: 'custom'
               label:  自定义
         - $formkit: attachment
