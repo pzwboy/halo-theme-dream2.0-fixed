@@ -10,7 +10,7 @@
 
 ![玖涯博客](https://raw.githubusercontent.com/pzwboy/halo-theme-dream2.0-fixed/refs/heads/master/preview.png)
 
-预览：[主题预览](https://pzwboy.top/)
+预览：[主题预览](https://dreamfixed.pzwboy.top/)
 
 
 
