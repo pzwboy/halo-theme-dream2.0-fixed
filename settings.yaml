@@ -132,15 +132,6 @@ spec:
               value: true
             - label: 关闭
               value: false
-        - $formkit: radio
-          name: banner_mode
-          label: 横幅类型
-          value: image
-          options:
-            - label: 图片
-              value: image
-            - label: 视频
-              value: video
         - $formkit: attachment
           name: banner_image
           label: 横幅背景图
@@ -149,6 +140,7 @@ spec:
           name: banner_video
           label: 横幅背景视频
           placeholder: '请输入/选择视频路径'
+          help: '当此项被填时，横幅将更换为指定视频。'
         - $formkit: text
           name: banner_description
           label: 横幅文字描述
@@ -203,8 +195,10 @@ spec:
               label:  默认字体
             - value: 'MiSansVF.woff2'
               label: MiSans
-            - value: 'ZhanKuWenYiTi.woff2'
-              label: 站酷文艺体
+            - value: 'ZhanKuKuaiLeTi.woff2'
+              label: 站酷快乐体
+            - value: 'MaoKenZhuYuanTi.woff2'
+              label: 猫啃珠圆体
             - value: 'custom'
               label:  自定义
         - $formkit: attachment

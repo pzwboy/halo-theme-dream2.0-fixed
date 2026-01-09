@@ -3,7 +3,7 @@
      class="banner"
      th:style="${'background-image: url(' + theme.config.basic_style.banner_image + ')'}">
 	 
-	 <th:block  th:if="${theme.config.basic_style.banner_mode) = video}">
+	 <th:block th:unless="${#strings.isEmpty(theme.config.basic_style.banner_video)}">
      <video th:src="${theme.config.basic_style.banner_video}" style="width: 100%;height: 100%;object-position: center;object-fit: cover;" autoplay loop muted></video>
 	 </th:block>
 	 
