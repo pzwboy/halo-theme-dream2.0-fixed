@@ -586,6 +586,8 @@ spec:
                   label:  文章标签模块
                 - value: 'tagcloud'
                   label:  文章标签云模块
+                - value: 'hitokoto'
+                  label: 一言模块（仅支持左侧）
                 - value: 'custom'
                   label: 自定义模块
             - $formkit: select
