@@ -10,7 +10,8 @@
   <p id="hitokoto_from" style="text-align: right;"></p>
 </div>
 <script>
-  fetch('${theme.config.sidebar.hitokoto_api}')
+const hitokoto_api = "[[${theme.config.sidebar.hitokoto_api}]]";
+  fetch(hitokoto_api)
     .then(response => response.json())
     .then(data => {
       const hitokoto = document.querySelector('#hitokoto_text')
