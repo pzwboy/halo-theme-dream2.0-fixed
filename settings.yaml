@@ -893,6 +893,11 @@ spec:
               label:  开启
             - value: false
               label:  关闭
+        - $formkit: text
+          name: hitokoto_api
+          label: 侧边栏一言-语句接口
+          placeholder: 请输入接口链接
+          value: "https://v1.hitokoto.cn"
     - group: page_config
       label: '页面设置'
       formSchema:
