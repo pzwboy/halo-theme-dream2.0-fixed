@@ -10,7 +10,8 @@
   <p id="hitokoto_from" style="text-align: right;"></p>
 </div>
 <script>
-const hitokoto_api = "[[${theme.config.sidebar.hitokoto_api}]]";
+const hitokoto_api_raw = "[[${theme.config.sidebar.hitokoto_api}]]";
+  hitokoto_api = hitokoto_api_raw.replace(/&amp;/g, '&');
   fetch(hitokoto_api)
     .then(response => response.json())
     .then(data => {
