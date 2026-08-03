@@ -1,7 +1,7 @@
 apiVersion: v1alpha1
 kind: AnnotationSetting
 metadata:
-  generateName: annotation-setting-post
+  name: annotation-setting-post
 spec:
   targetRef:
     group: content.halo.run
@@ -87,7 +87,7 @@ spec:
 apiVersion: v1alpha1
 kind: AnnotationSetting
 metadata:
-  generateName: annotation-setting-singlepage
+  name: annotation-setting-singlepage
 spec:
   targetRef:
     group: content.halo.run
@@ -153,7 +153,7 @@ spec:
 apiVersion: v1alpha1
 kind: AnnotationSetting
 metadata:
-  generateName: annotation-setting-menuitem
+  name: annotation-setting-menuitem
 spec:
   targetRef:
     group: ""
