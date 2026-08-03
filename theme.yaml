@@ -22,7 +22,7 @@ spec:
   settingName: theme-dream-fixed-setting
   configMapName: theme-dream-fixed-configMap
   # 版本号
-  version: 1.0.5
+  version: 1.0.5.1
   # 最低支持的 Halo 版本
   requires: ">=2.0.0"
   issues: https://github.com/pzwboy/halo-theme-dream2.0-fixed/issues
